@@ -14,6 +14,7 @@ public class GitController {
     @RequestMapping("hello")
     public String hello(){
         System.out.println("happyCoding2008");
+        System.out.println("2018 go!");
         System.out.println("2008 go!");
         return "hello";
     }
